@@ -1,0 +1,41 @@
+.unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+
+}
+
+
+.draw {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;      
+
+
+  width: 10px;
+  height: 10px;
+  background-color: coral;
+  border-radius: 5px;
+}
+
+#myCanvas{
+	position: absolute;
+	display:block;
+	top: 0;
+	left: 0;
+}
+
+button{
+	position: absolute;
+	z-index:1000;
+	top: 10px;
+	right:  10px;
+	font-size: 24px;
+}
